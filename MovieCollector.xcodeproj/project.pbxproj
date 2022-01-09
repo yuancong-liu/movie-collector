@@ -14,6 +14,10 @@
 		22E6CCB0278B4AFB00B2FEDE /* MovieCollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCAF278B4AFB00B2FEDE /* MovieCollectorTests.swift */; };
 		22E6CCBA278B4AFB00B2FEDE /* MovieCollectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCB9278B4AFB00B2FEDE /* MovieCollectorUITests.swift */; };
 		22E6CCBC278B4AFB00B2FEDE /* MovieCollectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCBB278B4AFB00B2FEDE /* MovieCollectorUITestsLaunchTests.swift */; };
+		22E6CCC9278B508000B2FEDE /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCC8278B508000B2FEDE /* MovieModel.swift */; };
+		22E6CCCC278B51A600B2FEDE /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCCB278B51A600B2FEDE /* MovieService.swift */; };
+		22E6CCCF278B550000B2FEDE /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCCE278B550000B2FEDE /* MovieStore.swift */; };
+		22E6CCD1278B5FFB00B2FEDE /* Movie+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6CCD0278B5FFB00B2FEDE /* Movie+Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		22E6CCB5278B4AFB00B2FEDE /* MovieCollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCollectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E6CCB9278B4AFB00B2FEDE /* MovieCollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectorUITests.swift; sourceTree = "<group>"; };
 		22E6CCBB278B4AFB00B2FEDE /* MovieCollectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22E6CCC8278B508000B2FEDE /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		22E6CCCB278B51A600B2FEDE /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		22E6CCCE278B550000B2FEDE /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		22E6CCD0278B5FFB00B2FEDE /* Movie+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,8 @@
 			children = (
 				22E6CC9E278B4AFB00B2FEDE /* MovieCollectorApp.swift */,
 				22E6CCA0278B4AFB00B2FEDE /* ContentView.swift */,
+				22E6CCCD278B51AB00B2FEDE /* Services */,
+				22E6CCCA278B516F00B2FEDE /* Models */,
 				22E6CCA2278B4AFB00B2FEDE /* Assets.xcassets */,
 				22E6CCA4278B4AFB00B2FEDE /* Preview Content */,
 			);
@@ -125,6 +135,24 @@
 				22E6CCBB278B4AFB00B2FEDE /* MovieCollectorUITestsLaunchTests.swift */,
 			);
 			path = MovieCollectorUITests;
+			sourceTree = "<group>";
+		};
+		22E6CCCA278B516F00B2FEDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22E6CCC8278B508000B2FEDE /* MovieModel.swift */,
+				22E6CCD0278B5FFB00B2FEDE /* Movie+Stub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22E6CCCD278B51AB00B2FEDE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				22E6CCCB278B51A600B2FEDE /* MovieService.swift */,
+				22E6CCCE278B550000B2FEDE /* MovieStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E6CCD1278B5FFB00B2FEDE /* Movie+Stub.swift in Sources */,
+				22E6CCC9278B508000B2FEDE /* MovieModel.swift in Sources */,
 				22E6CCA1278B4AFB00B2FEDE /* ContentView.swift in Sources */,
+				22E6CCCC278B51A600B2FEDE /* MovieService.swift in Sources */,
 				22E6CC9F278B4AFB00B2FEDE /* MovieCollectorApp.swift in Sources */,
+				22E6CCCF278B550000B2FEDE /* MovieStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
